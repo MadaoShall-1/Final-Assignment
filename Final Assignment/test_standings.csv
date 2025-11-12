@@ -1,0 +1,5 @@
+TestCase,Teams,Wins,Losses,Remaining,GamesMatrix,ExpectedEliminated
+Trivial,"LastPlace,First,Second","50,90,85","90,50,55","2,2,2",0-1-1;1-0-1;1-1-0,LastPlace
+NetworkFlow,"Detroit,NewYork,Toronto,Boston,Baltimore","75,77,77,78,74","59,57,57,56,60","21,16,10,14,7",0-3-8-7-3;3-0-2-7-4;8-2-0-0-0;7-7-0-0-0;3-4-0-0-0,Detroit
+NoElimination,"A,B,C,D","80,81,82,80","70,69,68,70","9,9,9,9",0-3-3-3;3-0-3-3;3-3-0-3;3-3-3-0,None
+Textbook,"Atlanta,Philadelphia,NewYork,Montreal","83,80,78,77","71,79,78,82","8,3,6,3",0-1-6-1;1-0-0-2;6-0-0-0;1-2-0-0,"Philadelphia,Montreal"
